@@ -14,7 +14,7 @@ setup(
         'gym>=0.15.3',
         'joblib>=0.14.0',
         'Cython==0.29.36',
-        'mujoco-py<2.2,>=2.1',
+        'mujoco-py @ git+https://github.com/sacktock/mujoco-py.git@master',
         'numpy>=1.17.4',
         'xmltodict>=0.12.0',
     ],
